@@ -1,4 +1,13 @@
-# 🧞‍♂️ Shell Genie
+
+# Intentiona
+
+## --@STCGoal Derive another bot with special instructions based on GuillaumeAI's visions and current projects. 
+
+----
+original readme
+----
+
+# 🧞‍♂️ GIA Shell Genie
 
 _Your wishes are my commands._
 
