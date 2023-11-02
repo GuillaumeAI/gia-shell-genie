@@ -1,5 +1,5 @@
 
-# Intentiona
+# Intentions
 
 ## --@STCGoal Derive another bot with special instructions based on GuillaumeAI's visions and current projects. 
 
