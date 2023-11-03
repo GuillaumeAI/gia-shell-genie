@@ -31,7 +31,10 @@ def get_backend(**config: dict):
 
 #
 import yaml
+import os
 
 def load_aliases(path):
-  with open(path) as f:
-    return yaml.safe_load(f)['aliases']
+
+  with open(os.path.join(os.path.dirname(__file__), path)) as f:
+     return yaml.load(f)['aliases']
+

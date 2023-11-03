@@ -132,10 +132,11 @@ def ask(
                 feedback=feedback,
             )
 
+import os
+from utils import load_aliases
+from backends import AliasBackend
 
-import aliases 
-
-aliases_path = 'aliases.yml'
+aliases_path = os.path.join(os.path.dirname(__file__), 'aliases.yml')
 aliases = load_aliases(aliases_path)
 
 backend = AliasBackend(aliases)
@@ -143,6 +144,7 @@ backend = AliasBackend(aliases)
 @app.command()
 def run_alias(name, *args):
   backend.run_alias(name, list(args))
+
 
 
 
