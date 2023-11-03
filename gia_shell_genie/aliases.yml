@@ -1,0 +1,18 @@
+aliases:
+  - name: gia-ast-meta
+    help: |
+      <help text above>
+    command: stylize_image.py
+    params: 
+      - name: image_file
+      - name: model_id
+      - name: width
+      - name: height
+      - name: auto
+    help_vars:
+      - name: IMAGE-FILENAME
+        help: Path to input image file 
+      - name: ModelID
+        help: Pretrained model ID to use
+      - name: x1, x2, x3
+        help: Optional output width, height

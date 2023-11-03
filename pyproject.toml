@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "shell-genie"
+name = "gia-shell-genie"
 version = "0.2.10"
-description = "Shell Genie is a command-line tool that lets you interact with the terminal in plain English. You ask the genie what you want to do and it will give you the command you need."
-authors = ["Dylan Castillo <dylanjcastillo@gmail.com>"]
+description = "(GIA distribution of )Shell Genie is a command-line tool that lets you interact with the terminal in plain English. You ask the genie what you want to do and it will give you the command you need."
+authors = ["jgwill <jgwill@gmail.com>"]
 readme = "README.md"
-packages = [{include = "shell_genie"}]
+packages = [{include = "gia_shell_genie"}]
 license = "MIT"
 
 [tool.poetry.scripts]
-shell-genie = "shell_genie.main:app"
+gia-shell-genie = "gia_shell_genie.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.10"
